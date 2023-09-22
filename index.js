@@ -5,6 +5,11 @@ const mongoose = require('mongoose');
 const app = express();
 const PORT = process.env.PORT || 3030;
 
+// habilitando o cors
+const cors = require('cors');
+app.use(cors());
+app.options('*', cors());
+
 //forma de ler JSON /middlewares (consigo enviar json e receber json)
 app.use(
     express.urlencoded({
