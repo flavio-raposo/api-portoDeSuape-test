@@ -147,14 +147,7 @@ router.get('/query/:param', async (req, res) => {
         const empresa = await Empresa.findOne(
             {
                 "$or": [
-                    {Nome: pesquisa},
-                    {Atividade: pesquisa},
-                    {Município: pesquisa},
-                    {Polo: pesquisa},
-                    {Endereço: pesquisa},
-                    {Contato: pesquisa},
-                    {Latitude: pesquisa},
-                    {Longitude: pesquisa}
+                    {Nome: pesquisa}
                 ]
             }
         );

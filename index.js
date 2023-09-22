@@ -3,7 +3,7 @@ require('dotenv').config()
 const express = require('express');
 const mongoose = require('mongoose');
 const app = express();
-
+const PORT = process.env.PORT || 3030;
 
 //forma de ler JSON /middlewares (consigo enviar json e receber json)
 app.use(
@@ -40,7 +40,7 @@ mongoose
     )
     .then(() =>{
         console.log('Conectamos ao MongoDB!')
-        app.listen(3000)
+        app.listen(PORT)
     })
     .catch((err) => console.log(err))
 
