@@ -170,7 +170,7 @@ router.get('/query/:param', async (req, res) => {
 router.post("/login", async function(req, res){ 
     try { 
         // check if the user exists 
-        const user = await User.findOne({ username: req.body.Username }); 
+        const user = await User.findOne({ Username: req.body.Username }); 
         if (user) { 
           //check if password matches 
           const result = req.body.Password === user.Password; 
