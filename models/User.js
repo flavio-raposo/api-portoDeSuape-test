@@ -10,7 +10,7 @@ const user = mongoose.model('User', {
     Email: String,
     Password: String,
     Role: String,
-    Itinerario: Array,
+    Journey: Array,
 })
 
 module.exports = user

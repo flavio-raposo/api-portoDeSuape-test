@@ -6,7 +6,7 @@ const User = require('../models/User');
 router.post('/', async (req, res) => {
 
     //req.body
-    const {id, Name, Username, Email, Password, Role} = req.body;
+    const {id, Name, Username, Email, Password, Role, Journey} = req.body;
 
     if(!Name){
         res.status(422).json({error: 'O nome é obrigatório'});
@@ -20,7 +20,7 @@ router.post('/', async (req, res) => {
         Email, 
         Password, 
         Role,
-        Itinerario
+        Journey
     };
 
     try{
@@ -81,7 +81,7 @@ router.patch('/:id', async (req, res) =>{
 
     const id = req.params.id;
 
-    const {Name, Username, Email, Password, Role } = req.body;
+    const {Name, Username, Email, Password, Role, Journey } = req.body;
 
     const user = {
         id,
@@ -90,7 +90,7 @@ router.patch('/:id', async (req, res) =>{
         Email, 
         Password, 
         Role,
-        Itinerario
+        Journey
     };
 
     try {
@@ -148,7 +148,7 @@ router.get('/query/:param', async (req, res) => {
                     {Email: pesquisa},
                     {Password: pesquisa},
                     {Role: pesquisa},
-                    {Itinerario: pesquisa}
+                    {Journey: pesquisa}
                 ]
             }
         );
