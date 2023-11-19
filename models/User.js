@@ -1,5 +1,3 @@
-import empresa from './Empresa';
-import Ponto from './PontoDeInteresse';
 const mongoose = require('mongoose');
 
 
