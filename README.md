@@ -20,10 +20,10 @@
 
 ## Equipe
 
-1. Cleverton Andrade
-2. [Flávio Raposo](https://github.com/flavio-raposo)
-3. [João Pedro Marinho](https://github.com/marinhojp)
-4. [José Adeilton](https://github.com/i1iadeilton)
-5. [Renan Leite Vieira](https://github.com/renanleitev)
-6. [Rian Vinicius](https://github.com/RianBorges)
+1. [Flávio Raposo](https://github.com/flavio-raposo)
+2. [João Pedro Marinho](https://github.com/marinhojp)
+3. [José Adeilton](https://github.com/i1iadeilton)
+4. [Renan Leite Vieira](https://github.com/renanleitev)
+5. [Rian Vinicius](https://github.com/RianBorges)
+6. Hugo Davi
 7. Robério José
