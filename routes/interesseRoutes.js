@@ -143,12 +143,7 @@ router.get('/query/:param', async (req, res) => {
         const ponto = await PontoDeInteresse.findOne(
             {
                 "$or": [
-                    {Nome: pesquisa},
-                    {Atividade: pesquisa},
-                    {Endereço: pesquisa},
-                    {Contato: pesquisa},
-                    {Latitude: pesquisa},
-                    {Longitude: pesquisa}
+                    {Nome: pesquisa}
                 ]
             }
         );
