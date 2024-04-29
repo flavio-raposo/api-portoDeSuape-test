@@ -1,6 +1,6 @@
 # Use the official Node.js LTS image as the base image
-# FROM node:lts
-FROM arm64v8/node:lts
+FROM node:lts
+# FROM arm64v8/node:lts
 
 # Set the working directory inside the container
 WORKDIR /usr/src/app
