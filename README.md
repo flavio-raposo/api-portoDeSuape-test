@@ -25,5 +25,4 @@
 3. [José Adeilton](https://github.com/i1iadeilton)
 4. [Renan Leite Vieira](https://github.com/renanleitev)
 5. [Rian Vinicius](https://github.com/RianBorges)
-6. Hugo Davi
-7. Robério José
+6. Robério José
