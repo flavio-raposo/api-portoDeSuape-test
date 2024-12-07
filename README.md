@@ -1,4 +1,4 @@
-# API REST para o aplicativo Suape Na Palma da Mão
+# API REST para o aplicativo Suape Na Palma da Mãoo
 
  API REST feita em Express e Mongoose, com suporte a base de dados MongoDB.
 
